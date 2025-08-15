@@ -18,7 +18,7 @@ app.use(morgan("tiny"))
 
 let allowedOrigins=[
     "http://localhost:5173",
-    "https://practice-frontend-gules.vercel.app/"
+    "https://practice-frontend-gules.vercel.app"
 ]
 
 app.use(cors({
